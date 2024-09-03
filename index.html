@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Blog Responsivo</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navigation">
+            <div class="logo">Meu Blog</div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-link">Home</a></li>
+                <li><a href="#about" class="menu-link">Sobre</a></li>
+                <li><a href="#posts" class="menu-link">Posts</a></li>
+                <li><a href="#contact" class="menu-link">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="site-main">
+        <section id="home" class="home-section">
+            <h1 class="heading-primary">Bem-vindo ao Meu Blog</h1>
+            <p class="heading-secondary">Descubra artigos interessantes e atualizações regulares!</p>
+            <button class="cta-button">Explorar Posts</button>
+        </section>
+
+        <section id="about" class="about-section">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="author-info">
+                <img src="https://via.placeholder.com/150" alt="Autor" class="author-avatar">
+                <div class="author-details">
+                    <h3 class="author-name">Nome do Autor</h3>
+                    <p class="author-description">Um pouco sobre mim...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="posts" class="posts-section">
+            <h2 class="section-title">Últimos Posts</h2>
+            <div class="post-grid">
+                <article class="post-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Post 1" class="post-image">
+                    <h3 class="post-title">Título do Post 1</h3>
+                    <p class="post-excerpt">Resumo do post...</p>
+                    <a href="#" class="read-more">Ler mais</a>
+                </article>
+                <article class="post-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Post 2" class="post-image">
+                    <h3 class="post-title">Título do Post 2</h3>
+                    <p class="post-excerpt">Resumo do post...</p>
+                    <a href="#" class="read-more">Ler mais</a>
+                </article>
+                <article class="post-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Post 3" class="post-image">
+                    <h3 class="post-title">Título do Post 3</h3>
+                    <p class="post-excerpt">Resumo do post...</p>
+                    <a href="#" class="read-more">Ler mais</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2 class="section-title">Fale conosco</h2>
+            <form action="" method="POST" class="contact-form">
+                <input type="text" name="name" placeholder="Seu Nome" required>
+                <input type="email" name="email" placeholder="Seu Email" required>
+                <textarea name="message" placeholder="Sua Mensagem" required></textarea>
+                <button type="submit" class="form-button">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="social-links">
+            <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p>&copy; 2023 Meu Blog. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
